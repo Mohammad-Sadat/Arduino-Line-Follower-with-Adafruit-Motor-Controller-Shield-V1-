@@ -15,7 +15,7 @@
 	3. Connect Right Sensor with Arduino through ports 3.3v, Gnd and analogue pin A3.
 	4. Place the Adafruit Motor Controller Shield on the Arduino carefully.
 	5. Connect 9v Cell with Motor Controller through EXT_PWR ports.
-	6. Connect left motor with M1 ports.
+	6. Connect left motor with M2 ports.
 	7. Connect right motor with M4 ports.
 	8. Place the setup on the chassis.
 
