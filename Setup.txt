@@ -1,0 +1,25 @@
+*LFR trial Code
+**REQUIREMENTS:
+	1. Arduino Uno x1
+	2. Adafruit Motor Shield v1 x1
+	3. IR Sensors x2
+	4. 9V Cell(s) x1
+	5. 5v cell(s) x1
+	6. DC Motors x2
+	7. Jumper Wires x14
+	8. Chassis x1
+
+**PROCEDURE:
+	1. Connect 5v Cell with Arduino Uno through ports 5v or Vin, and Gnd.
+	2. Connect Left Sensor with Arduino through ports 3.3v, Gnd and analogue pin A0.
+	3. Connect Right Sensor with Arduino through ports 3.3v, Gnd and analogue pin A3.
+	4. Place the Adafruit Motor Controller Shield on the Arduino carefully.
+	5. Connect 9v Cell with Motor Controller through EXT_PWR ports.
+	6. Connect left motor with M1 ports.
+	7. Connect right motor with M4 ports.
+	8. Place the setup on the chassis.
+
+**PRECAUTONS:
+	1. The motor controller has no safety diodes with its power source ports. Be sure to know the positive and negative ends of the battery before inserting.
+	2. Carefully place the motor controller on the Arduino so that the pins do not bend or break. Every Pin is Important.
+	3. When setting on the chassis, place the IR Sensors 1 cm above the ground vertically.
